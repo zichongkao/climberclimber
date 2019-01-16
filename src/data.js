@@ -1,17 +1,75 @@
-export const locationInfoStore = {
-  'thumb': {},
-  'index finger': {
+export const symptomStore = {
+  'a2 pulley': {
+    'blurb': {
+      'text': 'The most common pulley injury. Typically caused by the closed hand crimp position in which the flexor tendons apply up to 3–4 times the fingertip load on the pulley. The ring finger is most susceptible to this injury because the pinky provides little support.',
+      'source': 'https://medium.com/@jamesleedpt/a2-pulley-injuries-in-rock-climbing-9cb00fa6f3bf'
+    },
+    'symptoms': [{
+        'text': 'A pop is heard or felt, often while crimping',
+        'anecdotes': [
+        ]
+      },
+      {
+        'text': 'Pain when pressing the base of the finger',
+        'anecdotes': [
+        ]
+      },
+      {
+        'text': '',
+        'anecdotes': [
+        ]
+      },
+    ]
   },
-  'middle finger': {
-    'a2 pulley': 'The most common pulley that gets injured due to the immense pressure of the closed hand crimp position. The second joint from the fingertip is flexed past 90 degrees and the first joint is hyper-extended causing the flexor tendons to apply up to 3–4 times the fingertip load to the pulley. The middle finger is less prone to pulley injuries than the ring finger due to support from the index finger.',
-    'a4 pulley': 'blah',
-  },
-  'ring finger': {
-    'a2 pulley': 'The most common pulley that gets injured due to the immense pressure of the closed hand crimp position. The second joint from the fingertip is flexed past 90 degrees and the first joint is hyper-extended causing the flexor tendons to apply up to 3–4 times the fingertip load to the pulley. The ring finger is most susceptible to this injury because the pinky provides little support.',
-    'a4 pulley': 'blah',
-  },
-  'pinky': {},
-  'palm': {},
-  'wrist': {},
-};
 
+  'flexor tendon': {
+    'blurb': {
+      'text:': '',
+      'source': ''
+    },
+    'symptoms': [{
+        'text': 'Pain radiating from the forearm',
+        'anecdotes': [{
+          'source': 'https://www.reddit.com/r/climbharder/comments/3fb4nu/how_does_a_torn_pulley_feel'
+        }]
+      },
+      {
+        'text': 'Injured on a pocket',
+        'anecdotes': [{
+          'source': 'https://www.reddit.com/r/climbharder/comments/3fb4nu/how_does_a_torn_pulley_feel'
+        }]
+      },
+      {
+        'text': '',
+        'anecdotes': [
+        ]
+      },
+    ]
+  },
+
+
+  'lumbrical tear': {
+    'blurb': {
+      'text:': '',
+      'source': ''
+    },
+    'symptoms': [{
+        'text': 'Pain felt in multiple fingers',
+        'anecdotes': [{
+          'source': 'https://www.reddit.com/r/climbharder/comments/57bwc9/finger_injury_mystery/'
+        }]
+      },
+      {
+        'text': 'Injured on a pocket',
+        'anecdotes': [{
+          'source': 'https://www.reddit.com/r/climbharder/comments/3fb4nu/how_does_a_torn_pulley_feel'
+        }]
+      },
+      {
+        'text': '',
+        'anecdotes': [
+        ]
+      },
+    ]
+  }
+};
